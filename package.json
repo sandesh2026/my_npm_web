@@ -1,0 +1,31 @@
+{
+  "name": "tonkotsu-web",
+  "repository": {"type": "git" , "URL": "git://github.com/PramodhKumarM/tonkotsu-web.git"},
+  "description": "Boilerplate NodeJS webapp codebase",
+  "version": "0.0.1",
+  "private": false,
+  "license": "MIT",
+  "author": "pierluigi@github.com",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint */**.js",
+    "test": "nyc mocha",
+    "report-coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "codecov": "^3.5.0",
+    "mocha": "^5.2.0",
+    "node-fetch": "^2.6.0",
+    "nyc": "^13.1.0",
+    "ora": "^3.4.0",
+    "server": "^1.0.19"
+  },
+  "devDependencies": {
+    "eslint": "5.5.0",
+    "prettier": "^1.18.2"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/@PramodhKumarM"
+  }
+}
