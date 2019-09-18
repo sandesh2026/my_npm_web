@@ -1,5 +1,5 @@
 {
-  "name": "MyWeb",
+  "name": "My_npm_web",
   "repository": {"type": "git" , "URL": "git://github.com/sandesh2026/My_npm_web.git"},
   "description": "Boilerplate NodeJS webapp codebase",
   "version": "0.0.1",
