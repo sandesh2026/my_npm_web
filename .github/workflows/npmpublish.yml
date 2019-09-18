@@ -18,6 +18,7 @@ jobs:
           node-version: 12
       - run: npm ci
       - run: npm test
+      
   publish-gpr:
     needs: build
     runs-on: ubuntu-latest
@@ -30,4 +31,4 @@ jobs:
           scope: 'sandesh2026'
       - run: npm publish
         env:
-          MY_TOKEN: ${{secrets.SANDESH}}  
+          MY_TOKEN: ${{secrets.npm_github}}
