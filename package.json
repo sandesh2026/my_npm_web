@@ -1,6 +1,6 @@
 {
-  "name": "tonkotsu-web",
-  "repository": {"type": "git" , "URL": "git://github.com/PramodhKumarM/tonkotsu-web.git"},
+  "name": "MyWeb",
+  "repository": {"type": "git" , "URL": "git://github.com/sandesh2026/My_npm_web.git"},
   "description": "Boilerplate NodeJS webapp codebase",
   "version": "0.0.1",
   "private": false,
@@ -26,6 +26,6 @@
     "prettier": "^1.18.2"
   },
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com/@PramodhKumarM"
+    "registry":"https://npm.pkg.github.com/@sandesh2026"
   }
 }
