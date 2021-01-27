@@ -1,8 +1,8 @@
 {
-  "name": "My_npm_web",
+  "name": "my_npm_web",
   "repository": {"type": "git" , "URL": "git://github.com/sandesh2026/My_npm_web.git"},
   "description": "Boilerplate NodeJS webapp codebase",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "private": false,
   "license": "MIT",
   "author": "pierluigi@github.com",
